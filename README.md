@@ -4,9 +4,11 @@ In this project I trained a Auto-Regressive transformer to generate musical scor
 While a full analysis is given in the paper, Some of our main results can be pictured here.
 
 We generated a learned embedding for any particular genre. Pictured here is the covariance matrix for any particular genre (how similar any two genres are). Lighter colors indicate a higher similarity score. We can see that the model learned meaningful differences across genres. For example Jazz and Blues are relatively similar to each other in the embedding space, but different from most of the other genres. Additional similarities are found between World and Latin.
+
 ![](genre_correlation.png)
 
 Pictured below is a sampled score conditioned on $\frac{1}{2}$ jazz and $\frac{1}{2}$ classical. We see speedy classical-like notes over a jazz-like chord progression.
+
 ![](score_example.png)
 
 
