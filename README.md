@@ -7,6 +7,7 @@ We generated a learned embedding for any particular genre. Pictured here is the 
 ![](genre_correlation.png)
 
 Pictured below is a sampled score conditioned on $\frac{1}{2}$ jazz and $\frac{1}{2}$ classical. We see speedy classical-like notes over a jazz-like chord progression.
+![](score_example.png)
 
 
 ## Examples
